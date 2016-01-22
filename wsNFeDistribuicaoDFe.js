@@ -1,4 +1,5 @@
 var WsNFeDistribuicaoDFe = function(){};
+
 function nfeDistDFeInteresse(){
   nfeDadosMsg = {};
 }
@@ -14,7 +15,7 @@ var configureInputType = function(soapService){
 };
 
 WsNFeDistribuicaoDFe.prototype.NFeDistribuicaoDFe = service;
-WsNFeDistribuicaoDFe.prototype.NFeDistribuicaoDFe.serviceName = serviceName;
+WsNFeDistribuicaoDFe.prototype.serviceName = serviceName;
 WsNFeDistribuicaoDFe.prototype.configureInputType = configureInputType;
 
 module.exports = WsNFeDistribuicaoDFe;

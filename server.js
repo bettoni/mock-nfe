@@ -8,3 +8,5 @@ wsNFeDistribuicaoDFe.configureInputType(soapService);
 
 soapServer.listen(1337, '127.0.0.1');
 console.log("Iniciado na porta 1337");
+console.log("Servicos disponiveis:");
+console.log("  --> " + wsNFeDistribuicaoDFe.serviceName);
